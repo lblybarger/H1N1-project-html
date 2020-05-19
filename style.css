@@ -1,0 +1,150 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(island-image.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+body
+{
+    font-family: monspace;
+}
+
+.navbar-nav li
+{
+    padding: 0 10 px;
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 200px;
+    color: white;
+}
+
+.jumbotron
+{
+    color: black;
+    text-decoration-color: wheat;
+
+}
+
+.h1
+{
+    color: white;
+    padding: 0px 10px!important;
+}
+
+.h2 
+{
+    color: white;
+    padding: 0px 10px!important;
+}
+.h3
+{
+    color: white;
+    padding: 0px 10px!important;
+}   
+
+.first
+{
+    color: white;
+    font-size: 14;
+}
+
+/* Smartphones */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+/* iPads */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* Desktops and Laptops */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+/* Large Screens */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+.row-1
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.about-header
+{
+    text-align: center;
+    color: white;
+    font-size: 24;
+    margin-top: 50px;
+}
+.about-header2
+{
+    text-align: left;
+    color: white;
+    font-size: 20;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.about-text
+{
+    text-align: left;
+    color: white;
+    font-size: 18;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.card-text
+{
+    text-align: left;
+    color: black;
+    font-size: 18;
+}
